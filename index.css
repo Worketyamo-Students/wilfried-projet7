@@ -97,7 +97,7 @@ h1{
     font-weight: 300;
     padding-top: 5rem;
 }
-.but1 a{
+.but1 {
     padding-top: 5rem;
     display: flex;   
 }

@@ -953,22 +953,106 @@ ol{
     font-size: 1rem;
     font-family: var(--font-family);
 }
-article{
+.article{
     padding-top: 3rem;
     background-color: #0F172A;
     height: 5rem;
     display: flex;
     justify-content: space-evenly;
 }
+.VOU{
+    display: flex;
+    background-color: #FEF3C7;
+    height: 6rem;
+    justify-content: space-around;
+}
+.VZ{
+    font-size: 4rem;
+    font-family: var(--font-family);
+    font-weight: 700;
+    padding-right: 5rem;
+}
+.VV{
+    font-size: 2rem;
+    color: #78350F;
+    padding-top: 1rem;
+}
+
 /* rendre notre landing page responsive */
 
 @media  screen and (max-width :430px) {
     html{
         font-size: 7px;
+        overflow-x: hidden;
     }
     body{
         overflow-x: hidden;
     }
+
+    .sec9{
+        flex-direction: column;
+        padding-top: 50rem;
+        align-items: flex-start;
+    }
+    h6{
+        font-size: 2rem;
+    }
+    .but6{
+        padding-right: 10rem;
+        width: 35%;
+        padding-inline-start: 12rem;
+    }
+    .article{
+        flex-direction: column;
+        height: 10rem;
+        
+    }
+    .FIN{
+        flex-direction: column;
+        align-items: center;
+        padding-right: 10rem;
+    
+    }
+    .fa{
+        scroll-padding-inline-end: 10rem;
+        
+
+    }
+    
+    .foo{
+        flex-direction: column;
+        padding-top: 10rem;
+        align-items: flex-start;
+        padding-inline-start: 18rem; 
+        height: 100rem;
+    }
+.VOU{
+    flex-direction: column;
+    padding-top: 60rem;
+    padding-left: 9rem;
+}
+.VZ{
+    font-size: 3rem;
+
+}
+.sec8{
+    padding-top: 60rem;
+    flex-direction: column;
+    align-items:flex-start;
+    padding-left: 8rem;
+}
+.tof{
+    width: 50%;
+}
+.tof1{
+    width: 50%;
+}
+.tof2{
+    width: 50%;
+}
+.tof3{
+    width: 50%;
+}
     header{
         width: 60%;
         display: flex;
@@ -1006,17 +1090,88 @@ article{
         width: 35%;
         height: 3rem;
     }
+    .sec6{
+        flex-direction: column;
+        padding-top: 10rem;
+    }
+    .VU{
+        flex-direction: column;
+        
+    }
+    .mi{
+        padding-right: 45rem;
+    }
+    h5{
+        font-size: 2.5rem;
+        margin: 4rem;
+    }
+    .sec7{
+        padding-top: 65rem;
+        flex-direction: column;
+        align-items: flex-start;
+        padding-left: 8rem;
+    }
+    .cha1{
+        width: 49%;
+    }
+    .cha2{
+        width: 49%;
+    }
+    .cha3{
+        width: 49%;
+    }
+    .cha4{
+        width: 49%;
+    }
+    .mage2{
+       
+        height: 3rem;
+        padding-bottom: 18rem;
+        padding-left: 5rem;
+        background-size: cover;
+    }
+    .NA{
+        padding-top: 15rem;
+        height: 30rem;
+        align-items: flex-start;
+        page-break-after:right;
+        margin-: 0 0 10rem 0;
+    }
+    .na1{
+        padding-top: 5rem;
+        width: 5%;
+    }
+    .na2{
+        display: none;
+    }
+    .na3{
+        display: none;
+    }
+    .na4{
+        display: none;
+    }
+    .na5{
+        display: none;
+    }
+    .na6{
+        display: none;
+    }
     .sec5{
+        padding-top: 20rem;
+    }
+    .pp{
+        font-size: 2.5rem;
         padding-top: 5rem;
     }
-    h4{
-        padding-top: 20rem;
-        font-size: 2rem;
-        padding-inline-start: 4rem;
+    .t1{
+        width: 40%;
+        height: 5rem;
     }
+   
     .vue2{
     width: 50%;
-    padding-inline-end: 25rem;  
+    padding-inline-end: 20rem; 
+
     }
     .vue1{
         display: none;
@@ -1032,14 +1187,16 @@ article{
         width: 15rem;
     }
     .V1{
-        height: 25rem;
-        padding-top: 5rem;
-        padding-left: 6rem;
+        height: 20rem;
+        padding-top: 15rem;
+        padding-left: 8rem;
     }
     h4{
-        font-size: 4rem;
+        font-size: 3rem;
         font-family: var(--font-family);
         font-weight: 700;
+        padding-right: 3rem;
+        
     }
     .sec3{
         padding-top: 50rem;
